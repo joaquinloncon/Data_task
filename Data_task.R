@@ -223,4 +223,4 @@ data_task_oct22 %>%
              panel.grid.major.y = element_blank(), 
              axis.text.x = element_text(angle = 45, hjust = 1, size = 12, face = 'bold'))
 
-#Sys.setlocale('LC_TIME', my_sys) #come back to our locale system
+Sys.setlocale('LC_TIME', my_sys) #come back to our locale system
