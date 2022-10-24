@@ -127,7 +127,7 @@ date_range <- seq(min(dates_in_data), max(dates_in_data), by = 1)
 date_range[!date_range %in% dates_in_data]
 # We have a week in July for which we implicitly do not have data
 
-#use same colours for each package
+#use the same colours for each package
 length(unique(data_task_oct22$package)) #16 packages, need 16 colours
 mycolours <- c('red', 'cyan', 'green', 'orange', 
                'yellow', 'white', 'pink', 'darkturquoise', 
