@@ -7,7 +7,7 @@ if(!require(png)) install.packages('png', repos = 'http://cran.us.r-project.org'
 if(!require(grid)) install.packages('grid', repos = 'http://cran.us.r-project.org') # for render bitmap image like PNG
 
 #load the dataset
-data_task_oct22 <- read.csv('https://raw.githubusercontent.com/joaquinloncon/Data_task/main/data_task_oct22.csv')
+data_task_oct22 <- read.csv('https://raw.githubusercontent.com/joaquinloncon/data_task/main/data_task_oct22.csv')
 
 #Create a custom theme
 my_theme <- function(
